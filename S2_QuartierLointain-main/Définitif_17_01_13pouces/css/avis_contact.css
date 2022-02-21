@@ -1,0 +1,314 @@
+.rating a {
+	display: flex;
+	float: right;
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+
+.rating{
+	display: flex;
+	justify-content: left;
+	width: 20%;
+}
+.chiffre{
+  margin-bottom: 66px;
+}
+
+.liste{
+  display: inline-flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+
+
+.espace{
+  margin-right: 45px;
+}
+
+.avis{
+	width: 200%;
+}
+
+.form_contact{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}	
+
+#message{
+	display: flex;
+	height: 350px;
+	justify-content: center;
+}
+
+
+.panel{
+	display: flex;
+    min-width: 65%;
+	height: 80vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	position: absolute;
+	opacity: 0;
+	justify-content:  center;
+}
+
+.panel:target{
+	opacity: 1;
+	margin-top: 0%;
+	z-index: 2;
+}
+
+#ancre_avis{
+	width: 100%;
+	height: 130%;
+
+}
+
+#ancre_contact{
+	width: 100%;
+	height: 140%;
+}
+
+.bouton{
+	border:1px solid black;
+	background-color: #51453d;
+	border-radius: 15px;
+  margin-bottom: 20px;
+
+
+}
+.ancre{
+	margin: 3%;
+	margin-left:25%;
+	margin-right:25%;
+}
+h2{
+	display: flex;
+	justify-content: center;
+	color: #c8c8c8;
+}
+
+
+
+.global_avis{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.align_stars{
+	display: flex;
+}
+.input{
+	display: block;
+	height: 300px;
+	width: 500px;
+}
+
+.input_nom{
+	display: block;
+	height: 1em;
+	width: 200px;
+	font-size:1.5em;
+}
+
+.input_objet{
+	display: block;
+	height: 2em;
+	width: 500px;
+	font-size:1.5em;
+}
+
+.input_message{
+	display: block;
+	height: 300px;
+	width: 500px;
+}
+
+.titre{
+	margin-top: 5%;
+}
+
+.sending{
+	display: flex;
+	margin-top: 10%;
+	font-size: 1.1em;
+	border-radius: 20px;
+	margin-top: 20%;
+	background-color: #51453d;
+	color: white;
+	text-align: center;
+  outline:none;
+}
+
+
+
+
+/*==============================*/
+/* partie commune               */
+/*==============================*/
+input[type=range].custom-slider.custom-slider-bullet {
+  height: 4em;
+  color: #FFF;
+  background: transparent;
+  background-image: linear-gradient(to bottom, #FFF, #999, #FFF);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 25%;
+}
+/*==============================*/
+/* le curseur                   */
+/*==============================*/
+input[type=range].custom-slider.custom-slider-bullet::-webkit-slider-thumb {
+  width: 4em;
+  padding: 0.25em;                                              /* largeur du bord */
+  border: 1px solid #888;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em #FFF inset;
+  background: linear-gradient(#888, #FFF) content-box,          /* le centre */
+              linear-gradient(-90deg, #888, #DDD) border-box;   /* le bord */
+}
+input[type=range].custom-slider.custom-slider-bullet::-moz-range-thumb {
+  width: 4em;
+  padding: 0.25em;                                              /* largeur du bord */
+  border: 1px solid #888;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em #FFF inset;
+  background: linear-gradient(#888, #FFF) content-box,          /* le centre */
+              linear-gradient(-90deg, #888, #DDD) border-box;   /* le bord */
+}
+input[type=range].custom-slider.custom-slider-bullet::-ms-thumb {
+  width: 4em;
+  padding: 0.25em;                                              /* largeur du bord */
+  border: 1px solid #888;
+  border-radius: 50%;
+  box-shadow: 0 0 .5em #FFF inset;
+  background: linear-gradient(#888, #FFF) content-box,          /* le centre */
+              linear-gradient(-90deg, #888, #DDD) border-box;   /* le bord */
+}
+
+
+
+
+.contact-form {
+    padding-right: 30px;
+    width: 400px;
+    margin-top: 10px;
+}
+
+/********************look du prenom email msg*****************/
+
+.form-control{
+  width: 400px;
+  background-color:;
+  border:none;
+  outline: none;
+  font-size:14px;
+  margin-bottom:10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+input.form-control:focus{
+  color: black;
+  cursor: pointer;
+  background: ;
+  border-radius: 200px;
+
+
+
+}
+/**********************************/
+
+.form-control:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px black;  
+  transform: scaleX(1);
+  transform-origin:  0% 50%;
+  transition: transform 250ms ease-in-out;
+}
+
+.form-control:hover:after {
+  transform: scaleX(1); 
+}
+/********************marge coté******************/
+
+.prenom {
+  background-position: 5px 10px;
+  padding-left: 20px;
+  background-image: url(images/fond5.jpg);
+  box-shadow:1px 2px 2px 3px #51453d;
+}
+.email {
+
+  padding-left: 20px;
+  background-image: url(images/fond5.jpg);
+  box-shadow:1px 2px 2px 3px #51453d;
+}
+.message {
+  background-position: 5px 10px;
+  padding-left: 20px;
+  size:100px;
+  resize: vertical;
+  background-image: url(images/fond5.jpg);
+  box-shadow:1px 2px 2px 3px #51453d;
+}
+
+
+/********************Votre Prenom et Votre Email******************/
+
+input.form-control::placeholder {
+  color: grey;
+  border-radius: 200px;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  text-shadow: white 1px 0 10px;
+
+}
+/******************Message******************/
+
+textarea.form-control::placeholder {
+  color: grey;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  text-shadow: white 1px 0 10px;
+
+}
+/********************Envoyer le message: survol CLIQUER******************/
+
+input.form-control.submit:hover{
+  color: white;
+  cursor: pointer;
+  background-color: #35312e;
+  border-radius: 200px;
+
+}
+/********************taille case Prenom et nom******************/
+
+input{ 
+	height: 45px;
+}
+
+
+/********************couleur du Envoyer le message******************/
+
+form .submit{ 
+  background-color: #51453d ;
+  border-color: transparent;
+  color: white;
+  font-family: Agne, sans-serif;
+  font-size:17px;
+  font-weight:bold;
+  letter-spacing:2px;
+  width: 422px;
+  height:40px;
+  margin-top:0px;
+}
+
+iframe{
+	margin-right: 250%;
+} 
+
+

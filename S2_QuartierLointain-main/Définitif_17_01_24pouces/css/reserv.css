@@ -1,0 +1,193 @@
+
+
+
+.trait_tab{
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 5px;
+}
+
+.img_menu:hover{
+	background-color: #35312e;
+}
+
+#mise_en_page{
+  display: inline-flex;
+  justify-content:space-around;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+
+#img_reserv{
+  margin-top: 10%;
+  border: auto;
+}
+
+
+.red{
+  color: #c24b4b;
+ }
+
+.horaire{
+  display: inline-block ;
+  font-size: 1.2vw;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.tableau{
+  display: block;
+  margin-bottom: 50px;
+  margin-top: 8%;
+}
+
+
+#decal{
+  padding-left: 6px;
+}
+
+#paragraphe{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  font-size: 1vw;
+}
+
+
+.contact-title {
+    font-family: "Agne", sans-serif;
+    text-align: center;
+    font-size: 2em;
+  }
+
+/*******************mettre au centre****************/
+.reservation-form {
+  margin: 0 auto;
+  width: 450px;
+}
+
+
+/********************look du prenom email msg*****************/
+
+.form-control{
+  width: 100%;
+  background-image: url(images/fond5.jpg);
+  box-shadow:1px 2px 2px 3px #51453d;
+  font-size:14px;
+  border:none;
+  outline: none;
+  margin-bottom:10px;
+  border-radius: 20px;
+}
+
+input.form-control:focus{
+  cursor: pointer;
+  background:transparent;
+  border-radius: 200px;
+
+
+
+}
+/**********************************/
+
+.form-control:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px ;  
+  transform: scaleX(1);
+  transform-origin:  0% 50%;
+  transition: transform 250ms ease-in-out;
+}
+
+.form-control:hover:after {
+  transform: scaleX(1); 
+}
+/********************marge coté******************/
+
+
+
+input, select{
+  text-indent: 10px;
+  background-position: 5px 10px;
+  height: 45px;
+}
+
+
+
+/********************Votre Prenom et Votre Email******************/
+
+input.form-control::placeholder {
+  padding-left: 10px
+  color: grey;
+  border-radius: 20px;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  text-shadow: white 1px 0 10px;
+
+}
+
+/********************Envoyer le message: survol CLIQUER******************/
+
+input.form-control.submit:hover{
+  color: white;
+  cursor: pointer;
+  background: #35312e;
+  border-radius: 200px;
+
+}
+
+/********************couleur du Envoyer le message******************/
+
+form .submit{ 
+  background: #51453d;
+  border-color: transparent;
+  color: white;
+  font-family: "Arial Rounded MT Bold", sans-serif;
+  font-size:17px;
+  font-weight:bold;
+  letter-spacing:2px;
+  width: 100%;
+  height:40px;
+  margin-top:0px;
+} 
+
+/******************** azdazdazdazd******************/
+.part {
+  margin-bottom: 20px; 
+  text-align: center;
+  font-size: 17px;
+  padding: 5px;
+}
+
+
+.twoonline {
+  display: flex;
+  justify-content: space-between;
+}
+.oneonline {
+  width: auto;
+}
+
+
+.espace{
+  margin-right: 5px
+}
+
+/********************Deux input sur la meme ligne******************/
+
+
+.reservation-form {
+	padding: 5px;
+}
+
+#date{
+  font-family:"Times New Roman", Times, "Liberation Serif", FreeSerif, serif;
+}
+
+#contact-form{
+  margin-top: 50px;
+}
+
+input{
+  background-color: transparent;
+}
